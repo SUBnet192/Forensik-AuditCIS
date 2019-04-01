@@ -18,8 +18,7 @@
 		}
 		@{
 			Id    = "DTBI318"
-			Task  = "Internet Explorer must be set to disallow users to add/delete sites.
-"
+			Task  = "Internet Explorer must be set to disallow users to add/delete sites."
 			Path  = "HKLM:\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings"
 			Name  = "Security_zones_map_edit"
 			Value = 1
