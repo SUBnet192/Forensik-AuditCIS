@@ -1453,7 +1453,7 @@
         
             if ($regValue -ne "") {
                 return @{
-                    Message = "Registry value is '$regValue'. Expected: "
+                    Message = "Registry value is '$regValue'. Expected: <BLANK>"
                     Status = "False"
                 }
             }
